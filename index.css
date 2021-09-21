@@ -1,0 +1,106 @@
+.first{
+    background-color: black;
+    border: 6px solid red;
+    border-radius: 20px;
+    color: white;
+    padding: 40px 15px 15px 40px;
+    font-style: italic;
+    text-align: center;
+    height: 100px;
+    width: 250px;
+}
+
+.first2{
+    height: 40px;
+    width: 250px;
+    border-radius: 80px;
+}
+
+.firstt{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.circle{
+    border: 10px solid blue;
+    height: 330px;
+    width: 330px;
+    border-radius: 50%;
+    text-decoration: underline;
+    padding: 0px;
+    color: blue;
+    font-size: small;
+    font-style: italic;
+    background-color: lightskyblue;
+    margin-top: 400px;
+
+}
+
+::placeholder{
+    text-align: center;
+}
+
+.p{
+    text-align: center;
+    padding: 15px 10px 15px 10px
+
+}
+
+.second{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form{
+    margin-top: 50px;
+    display: block;
+    color: red;
+    border: 6px dashed red;
+    width: 500px;
+    height: 750px;
+    padding-right: 20px;
+    text-align: center;
+    background-color: snow;
+}
+
+.menu{ 
+    background-color: black;
+    border: 6px solid red;
+    border-radius: 40px;
+    color: white;
+    padding: 40px 15px 15px 40px;
+    font-style: italic;
+    text-align: center;
+    height: 30px;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.q{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.starters{
+     border: 5px solid green;
+     background-color: aqua;
+     border-radius: 30px;
+     width: 400px;
+     height: 300px;
+     text-align: center;
+     margin: 25px;
+     color:darkviolet;   
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+body{
+    background-image: url(https://media.istockphoto.com/photos/multi-colored-painted-wood-background-and-alternative-construction-picture-id1166226152);
+    border: 5px solid skyblue;
+    outline: 5px solid yellowgreen;
+}
